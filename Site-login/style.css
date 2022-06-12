@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategray;
+    color: white;
+   
+}
+
+header h1:hover{
+    color: gold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav li{
+    list-style: none;
+    padding-right: 25px;
+   
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    color: gold;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    
+}
+
+.container{
+    
+    margin: auto;
+   
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+  
+}
+
+
+.box h2{
+    text-align: center;
+    color: darkslategray;
+}
+
+.box input {
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.box label{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+
+.titulo{
+    text-align: center;
+    margin-top: 0;
+}
+
+main{
+    height: 70vh;
+}
+
+main p{
+    text-align: justify;
+    margin: 0 30px 0 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container p{
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container i {
+    color: green;
+}
+
+.container  form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container  form  label{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.container button{
+    padding: 7px;
+    background-color: darkslategray;
+    color: gold;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn{
+    padding: 7px;
+    background-color: darkslategray;
+    color: gold;
+    border-radius: 6px;
+    border: none;
+    width: 170px;
+    margin-top: 8px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 77px;
+    background-color: darkslategray;
+    color: white;
+}
