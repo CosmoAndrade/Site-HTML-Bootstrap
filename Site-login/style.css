@@ -16,6 +16,7 @@ header{
     align-items: center;
     background-color: darkslategray;
     color: white;
+    height: 55px;
    
 }
 
@@ -59,13 +60,13 @@ nav li a:hover{
 }
 
 .box{
-    width: 350px;
-    height: 350px;
-    background-color: antiquewhite;
+    width: 530px;
+    height: 330px;
+    background-color: #F8F9FA;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 20px 5px 20px;
     justify-content: center;
   
 }
@@ -74,6 +75,7 @@ nav li a:hover{
 .box h2{
     text-align: center;
     color: darkslategray;
+    margin-top: 0;
 }
 
 .box input {
@@ -81,7 +83,7 @@ nav li a:hover{
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
-    padding: 7px;
+    padding: 12px;
     border-radius: 5px;
 }
 
@@ -137,11 +139,12 @@ main p{
 }
 
 .container button{
-    padding: 7px;
+    padding: 12px;
     background-color: darkslategray;
     color: gold;
     border-radius: 6px;
     border: none;
+    width: 130px;
 }
 
 .btn{
@@ -159,7 +162,7 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 77px;
+    height: 50px;
     background-color: darkslategray;
     color: white;
 }
